@@ -95,7 +95,9 @@ streamlit run ai_tab.py
 ```
 
 
+The following directory structure and file documentation outline the exact responsibilities of each component in the repository for your AI team.
 
+```text
 anveshak-gcs/
 │
 ├── src/
@@ -106,3 +108,6 @@ anveshak-gcs/
 ├── mock_server.py           # (Backend Bridge) FastAPI server handling WebSocket and HTTP POST routing.
 ├── package.json             # (Node Dependencies) Contains React, Leaflet, and Lucide configuration.
 └── sample_images/           # (Testing Data) Directory for storing aerial test images.
+
+```
+
