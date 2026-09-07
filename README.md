@@ -93,3 +93,16 @@ streamlit run ai_tab.py
 ```
 
 ```
+
+
+
+anveshak-gcs/
+│
+├── src/
+│   └── components/
+│       └── Dashboard.jsx    # (Frontend Core) React map, telemetry UI, and WebSocket receiver.
+│
+├── ai_tab.py                # (Edge AI Node) Streamlit UI & YOLOv8 integration for target detection.
+├── mock_server.py           # (Backend Bridge) FastAPI server handling WebSocket and HTTP POST routing.
+├── package.json             # (Node Dependencies) Contains React, Leaflet, and Lucide configuration.
+└── sample_images/           # (Testing Data) Directory for storing aerial test images.
